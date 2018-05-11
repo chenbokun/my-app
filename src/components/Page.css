@@ -1,0 +1,35 @@
+.ul{
+	vertical-align: top;
+}
+.ul li{
+	box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #c8dde9;
+  text-align: center;
+  width: 40px;
+  line-height: 40px;
+  height: 40px;
+}
+.ul li:hover{
+  cursor: pointer;
+  background-color: #c8dde9;
+}
+.ul li:last-child{
+	border: none;
+	width: auto;
+	height: 40px;
+	vertical-align: top;
+}
+.ul li input{
+	box-sizing: border-box;
+	height: 40px;
+	line-height: -10px;
+}
+.ul li:last-child:hover,.ul li[name="..."]{
+	cursor: default;
+	background-color: transparent;
+}
+
+.active{
+  background-color: #c8dde9;
+}
